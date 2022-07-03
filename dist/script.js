@@ -1,5 +1,5 @@
 const TAURI = window.__TAURI__;
-const MAX_LINES = 22;
+const MAX_LINES = 33;
 
 TAURI.invoke('sideband_func')
 
@@ -26,7 +26,7 @@ let screen = document.getElementById('screen');
     let screenLines = 0;
     await TAURI.event.listen('event', e => {
         if (screen) {
-            screen.innerHTML += JSON.stringify(e.payload) + '<br>';
+            screen.innerHTML += JSON.stringify(e.payload).replace(/"/g,"") + '<br>';
             screenLines++;
             // cleanup
             if (screenLines > MAX_LINES) {
