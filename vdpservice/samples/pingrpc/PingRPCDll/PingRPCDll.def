@@ -1,0 +1,17 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Copyright (C) 2011-2021 VMware, Inc.  All rights reserved. -- VMware Confidential ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; PingRPCDll.def : Declares the module parameters.
+;
+
+EXPORTS
+  VDPService_PluginInit
+  VDPService_PluginExit
+  VDPService_PluginCreateInstance
+  VDPService_PluginDestroyInstance
+  VDPService_PluginGetTokenName
+  DllMain PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  ForceLoad PRIVATE

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vdpService Files", "vdpService Files", "{D65C4F41-B474-435D-9B02-9C102F6019B7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\include\vdpOverlay.h = ..\..\include\vdpOverlay.h
+		..\..\include\vdprpc_defines.h = ..\..\include\vdprpc_defines.h
+		..\..\include\vdprpc_interfaces.h = ..\..\include\vdprpc_interfaces.h
+		..\..\include\vdpService_defines.h = ..\..\include\vdpService_defines.h
+		..\..\include\vdpService_guids.h = ..\..\include\vdpService_guids.h
+		..\..\include\vdpService_interfaces.h = ..\..\include\vdpService_interfaces.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PingRPCExe", "PingRPCExe\PingRPCExe.vcxproj", "{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PingRPCDll", "PingRPCDll\PingRPCDll.vcxproj", "{8EF53F74-1BCC-4BF2-822E-847B5928FF64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Debug|x64.ActiveCfg = Debug|x64
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Debug|x64.Build.0 = Debug|x64
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Debug|x86.Build.0 = Debug|Win32
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Release|x64.ActiveCfg = Release|x64
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Release|x64.Build.0 = Release|x64
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Release|x86.ActiveCfg = Release|Win32
+		{84CEA658-CF04-4FC8-9519-4DA07B0A1C2C}.Release|x86.Build.0 = Release|Win32
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Debug|x64.ActiveCfg = Debug|x64
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Debug|x64.Build.0 = Debug|x64
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Debug|x86.ActiveCfg = Debug|Win32
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Debug|x86.Build.0 = Debug|Win32
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Release|x64.ActiveCfg = Release|x64
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Release|x64.Build.0 = Release|x64
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Release|x86.ActiveCfg = Release|Win32
+		{8EF53F74-1BCC-4BF2-822E-847B5928FF64}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

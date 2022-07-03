@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DLL Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DShow Files">
+      <UniqueIdentifier>{909a4bc5-04cc-4691-b95a-6928733a25df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\LogUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\RPCManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\RPCManagerWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMR9OverlayPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMR9OverlayPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VMR9OverlayPresenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLL Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterDll.cpp">
+      <Filter>DLL Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>DLL Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>DShow Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneScene.cpp">
+      <Filter>DShow Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\include\vdpService_import.cpp">
+      <Filter>DLL Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common\LogUtils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\RPCManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMR9OverlayPlayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMR9OverlayPlugin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMR9OverlayPresenter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>DLL Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>DLL Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>DLL Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMR9OverlayClient.h">
+      <Filter>DLL Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>DShow Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneScene.h">
+      <Filter>DShow Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VMR9OverlayClient.def">
+      <Filter>DLL Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VMR9OverlayClient.rc">
+      <Filter>DLL Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

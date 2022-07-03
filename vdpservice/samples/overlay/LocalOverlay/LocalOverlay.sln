@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vdpService Files", "vdpService Files", "{119B967E-AED8-41D6-BE99-68965C2DA8DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\include\vdpOverlay.h = ..\..\..\include\vdpOverlay.h
+		..\..\..\include\vdprpc_defines.h = ..\..\..\include\vdprpc_defines.h
+		..\..\..\include\vdprpc_interfaces.h = ..\..\..\include\vdprpc_interfaces.h
+		..\..\..\include\vdpService.h = ..\..\..\include\vdpService.h
+		..\..\..\include\vdpService_defines.h = ..\..\..\include\vdpService_defines.h
+		..\..\..\include\vdpService_guids.h = ..\..\..\include\vdpService_guids.h
+		..\..\..\include\vdpService_interfaces.h = ..\..\..\include\vdpService_interfaces.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LocalOverlayGuest", "LocalOverlayGuest\LocalOverlayGuest.vcxproj", "{80C4D533-01CA-4568-9F45-CEB1CDA008F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LocalOverlayClient", "LocalOverlayClient\LocalOverlayClient.vcxproj", "{B1875150-DAD5-4E11-961E-D10A31FB67A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Debug|x64.ActiveCfg = Debug|x64
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Debug|x64.Build.0 = Debug|x64
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Debug|x86.Build.0 = Debug|Win32
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Release|x64.ActiveCfg = Release|x64
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Release|x64.Build.0 = Release|x64
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Release|x86.ActiveCfg = Release|Win32
+		{80C4D533-01CA-4568-9F45-CEB1CDA008F4}.Release|x86.Build.0 = Release|Win32
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Debug|x64.ActiveCfg = Debug|x64
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Debug|x64.Build.0 = Debug|x64
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Debug|x86.Build.0 = Debug|Win32
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Release|x64.ActiveCfg = Release|x64
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Release|x64.Build.0 = Release|x64
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Release|x86.ActiveCfg = Release|Win32
+		{B1875150-DAD5-4E11-961E-D10A31FB67A1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

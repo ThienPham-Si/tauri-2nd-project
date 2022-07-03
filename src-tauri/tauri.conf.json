@@ -4,7 +4,8 @@
     "beforeBuildCommand": "",
     "beforeDevCommand": "",
     "devPath": "../dist",
-    "distDir": "../dist"
+    "distDir": "../dist",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "tauri-app",
@@ -60,8 +61,13 @@
         "resizable": true,
         "title": "Tauri App",
         "width": 450,
-        "alwaysOnTop": true
+        "alwaysOnTop": true,
+        "visible": false
       }
-    ]
+    ],
+    "systemTray": {
+      "iconPath": "../dist/favicon.ico",
+      "iconAsTemplate": false
+    }
   }
 }

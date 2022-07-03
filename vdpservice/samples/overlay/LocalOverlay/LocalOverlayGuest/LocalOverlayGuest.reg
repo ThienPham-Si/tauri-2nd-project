@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; This registry key is required to enable the virtual channel for the sample program
+; It is only required if the Virtual Channel Security feature is enabled
+;     HKLM\SOFTWARE\VMware, Inc.\VMware VDM\VirtualChannels\AllowVirtualChannels="1"
+;
+; You must update the path to be the full path to LocalOverlayGuest.exe
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware VDM\VirtualChannels\LocalOverlay]
+"LocalOverlay"="C:\\FULL PATH\\LocalOverlayGuest.exe"
