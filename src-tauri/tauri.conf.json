@@ -30,7 +30,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "learning",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -45,7 +45,10 @@
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
-        "timestampUrl": ""
+        "timestampUrl": "",
+        "webviewInstallMode": {
+          "type": "skip"
+        }
       }
     },
     "security": {
@@ -67,7 +70,7 @@
     ],
     "systemTray": {
       "iconPath": "../dist/favicon.ico",
-      "iconAsTemplate": false
+      "iconAsTemplate": true
     }
   }
 }

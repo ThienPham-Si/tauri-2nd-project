@@ -8,12 +8,14 @@ fn new_system_tray() -> SystemTray {
   let hide_item = CustomMenuItem::new("hide".to_string(), "Hide");
   let separator_item = SystemTrayMenuItem::Separator;
   let quit_item = CustomMenuItem::new("quit".to_string(), "Quit");
+  
   let tray_menu = SystemTrayMenu::new()
     .add_item(show_item)
     .add_item(hide_item)
     .add_native_item(separator_item)
     .add_item(quit_item);
   SystemTray::new().with_menu(tray_menu)
+
 }
 
 fn on_tray_menu_doubleclick(window: Window) {
